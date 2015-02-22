@@ -1,0 +1,17 @@
+[info]
+name = catch
+branch = main
+version = 1.0.53
+pubtime = 1414119195
+pubtimelocal = Thu, 23 Oct 2014 21:53:15
+desc = A modern, C++ native, header-only, framework for unit-tests, TDD and BDD
+owner = Phil Nash, Two Blue Cubes Ltd
+email = github@philnash.me
+url = http://www.levelofindirection.com/
+
+[immediate_deps]
+
+[weak_deps]
+
+[transitive_deps]
+
