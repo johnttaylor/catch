@@ -1,3 +1,6 @@
 ~~~~~; 1424633373; Sun, 22 Feb 2015 13:29:33; PUBLISH; johnttaylor <john.t.taylor@gmail.com>; 1.0.53; main; OUTCAST_catch-main-1.0.53; Official Build
 
 
+~~~~~; 1459217372; Mon, 28 Mar 2016 21:09:32; PUBLISH; DaVinci <build.machine@noemail.com>; 1.0.54; main; OUTCAST_catch-main-1.0.54; Fix nullptr warning that started showing up in gcc 4.8 and higher
+
+
