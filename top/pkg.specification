@@ -2,8 +2,8 @@
 name = catch
 branch = main
 version = 2.2.2
-pubtime = 1525648837
-pubtimelocal = Sun, 06 May 2018 17:20:37
+pubtime = 1530919711
+pubtimelocal = Fri, 06 Jul 2018 17:28:31
 desc = A modern, C++ native, header-only, framework for unit-tests, TDD and BDD
 owner = Phil Nash, Two Blue Cubes Ltd
 email = github@philnash.me
