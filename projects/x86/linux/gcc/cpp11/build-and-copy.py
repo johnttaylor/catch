@@ -32,8 +32,8 @@ srcpath         = os.path.join( prjdir, 'src', 'Catch', 'precompiled' )
 #
 # 32 Bit versions
 #
-dstpath_release = os.path.join( my_globals.NQBP_PKG_ROOT(), 'libs', 'x86', 'linux', 'gcc', 'cpp11', '32bit', "release" )
-dstpath_debug   = os.path.join( my_globals.NQBP_PKG_ROOT(), 'libs', 'x86', 'linux', 'gcc', 'cpp11', '32bit', "debug" )
+dstpath_release = os.path.join( my_globals.NQBP_PKG_ROOT(), 'src', 'Catch', 'libs', 'x86', 'linux', 'gcc', 'cpp11', '32bit', "release" )
+dstpath_debug   = os.path.join( my_globals.NQBP_PKG_ROOT(), 'src', 'Catch', 'libs', 'x86', 'linux', 'gcc', 'cpp11', '32bit', "debug" )
 
                  
 #
@@ -61,8 +61,8 @@ shutil.copytree(srcpath,dstpath_debug)
 #
 # 64 Bit versions
 #
-dstpath_release = os.path.join( my_globals.NQBP_PKG_ROOT(), 'libs', 'x86', 'linux', 'gcc', 'cpp11', '64bit', "release" )
-dstpath_debug   = os.path.join( my_globals.NQBP_PKG_ROOT(), 'libs', 'x86', 'linux', 'gcc', 'cpp11', '64bit', "debug" )
+dstpath_release = os.path.join( my_globals.NQBP_PKG_ROOT(), 'src', 'Catch', 'libs', 'x86', 'linux', 'gcc', 'cpp11', '64bit', "release" )
+dstpath_debug   = os.path.join( my_globals.NQBP_PKG_ROOT(), 'src', 'Catch', 'libs', 'x86', 'linux', 'gcc', 'cpp11', '64bit', "debug" )
                  
 #
 # Build non-debug version

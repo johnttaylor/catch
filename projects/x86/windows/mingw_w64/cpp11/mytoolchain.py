@@ -34,8 +34,8 @@ FINAL_OUTPUT_NAME = 'b.exe'
 
 # Set project specific 'base' (i.e always used) options
 base_release = BuildValues()        # Do NOT comment out this line
-base_release.cflags    = '-m32 -std=c++11 -Wall -Werror -x c++'
-base_release.linkflags = '-m32'
+base_release.cflags    = '-m32 -std=c++11 -Wall -Werror -x c++ -fprofile-arcs -ftest-coverage'
+base_release.linkflags = '-m32 -fprofile-arcs'
 
 # Set project specific 'optimized' options
 optimzed_release = BuildValues()    # Do NOT comment out this line
@@ -58,8 +58,8 @@ optimzed_win64 = BuildValues()
 debug_win64    = BuildValues()
 
 # Set 'base' options
-base_win64.cflags     = '-m64 -std=c++11 -Wall -Werror -x c++ '
-base_win64.linkflags  = '-m64'
+base_win64.cflags     = '-m64 -std=c++11 -Wall -Werror -x c++ -fprofile-arcs -ftest-coverage'
+base_win64.linkflags  = '-m64 -fprofile-arcs'
 
 # Set 'Optimized' options
 optimzed_win64.cflags = '-O3'
