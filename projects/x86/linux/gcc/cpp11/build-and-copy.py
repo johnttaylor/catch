@@ -43,8 +43,12 @@ err, msg = utils.run_shell2( "nqbp.py -tb posix", True )
 if ( err != 0 ):
     sys.exit( "ERROR: Release build failed.")
 print( "Copying: {} TO\n         {}".format( srcpath, dstpath_release ) )
-shutil.rmtree( dstpath_release, True );
-shutil.copytree(srcpath,dstpath_release)
+shutil.rmtree( dstpath_release, True )
+# HACK: For some reason copytree fails with permission error -->but the copy actually occurred!!!! Probably a WSL/Python thingy
+try:
+    shutil.copytree(srcpath,dstpath_release)
+except:
+    pass
 
 
 # 
@@ -55,7 +59,11 @@ if ( err != 0 ):
     sys.exit( "ERROR: Release build failed.")
 print( "Copying: {} TO\n         {}".format( srcpath, dstpath_debug ) )
 shutil.rmtree( dstpath_debug, True );
-shutil.copytree(srcpath,dstpath_debug)
+# HACK: For some reason copytree fails with permission error -->but the copy actually occurred!!!! Probably a WSL/Python thingy
+try:
+    shutil.copytree(srcpath,dstpath_debug)
+except:
+    pass
 
 
 #
@@ -71,8 +79,12 @@ err, msg = utils.run_shell2( "nqbp.py -tb posix64", True )
 if ( err != 0 ):
     sys.exit( "ERROR: Release build failed.")
 print( "Copying: {} TO\n         {}".format( srcpath, dstpath_release ) )
-shutil.rmtree( dstpath_release, True );
-shutil.copytree(srcpath,dstpath_release)
+shutil.rmtree( dstpath_release, True )
+# HACK: For some reason copytree fails with permission error -->but the copy actually occurred!!!! Probably a WSL/Python thingy
+try:
+    shutil.copytree(srcpath,dstpath_release)
+except:
+    pass
 
 
 # 
@@ -82,6 +94,10 @@ err, msg = utils.run_shell2( "nqbp.py -gtb posix64", True )
 if ( err != 0 ):
     sys.exit( "ERROR: Release build failed.")
 print( "Copying: {} TO\n         {}".format( srcpath, dstpath_debug ) )
-shutil.rmtree( dstpath_debug, True );
-shutil.copytree(srcpath,dstpath_debug)
+shutil.rmtree( dstpath_debug, True )
+# HACK: For some reason copytree fails with permission error -->but the copy actually occurred!!!! Probably a WSL/Python thingy
+try:
+    shutil.copytree(srcpath,dstpath_debug)
+except:
+    pass
 

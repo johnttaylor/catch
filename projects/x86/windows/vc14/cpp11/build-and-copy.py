@@ -28,8 +28,8 @@ utils.set_pkg_and_wrkspace_roots(__file__)
 utils.set_verbose_mode( True )
 prjdir          = os.path.dirname(os.path.abspath(__file__))
 srcpath         = os.path.join( prjdir, 'src', 'Catch', 'precompiled' )
-dstpath_release = os.path.join( my_globals.NQBP_PKG_ROOT(), 'libs', 'x86', 'windows', 'vc14', 'cpp11', '32bit', "release" )
-dstpath_debug   = os.path.join( my_globals.NQBP_PKG_ROOT(), 'libs', 'x86', 'windows', 'vc14', 'cpp11', '32bit', "debug" )
+dstpath_release = os.path.join( my_globals.NQBP_PKG_ROOT(), 'src', 'Catch', 'libs', 'x86', 'windows', 'vc14', 'cpp11', '32bit', "release" )
+dstpath_debug   = os.path.join( my_globals.NQBP_PKG_ROOT(), 'src', 'Catch', 'libs', 'x86', 'windows', 'vc14', 'cpp11', '32bit', "debug" )
 
                  
 #
