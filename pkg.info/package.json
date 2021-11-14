@@ -5,7 +5,7 @@
   },
   "directories": {
     "primary": [
-      "src/Catch"
+      "src"
     ],
     "adoptedExtras": null
   },
