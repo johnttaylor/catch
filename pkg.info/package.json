@@ -15,9 +15,9 @@
     "email": "github@philnash.me",
     "url": "www.levelofindirection.com",
     "repo": {
-      "name": null,
-      "type": null,
-      "origin": null
+      "name": "catch",
+      "type": "git",
+      "origin": "https://github.com/johnttaylor"
     }
   },
   "publish": {
