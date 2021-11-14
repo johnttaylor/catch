@@ -45,6 +45,7 @@ make.log
 *.ilk
 *.lst
 *.map
-
+!pkg.info/**/*.lst
+!pkgs.overlaid/**/*.lst
 docs/*
 myMediaFile
