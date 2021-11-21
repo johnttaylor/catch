@@ -18,14 +18,15 @@
       "name": "catch",
       "type": "git",
       "origin": "https://github.com/johnttaylor"
-    }
+    },
+    "pkgname": "catch"
   },
   "publish": {
     "current": {
-      "comment": "Publish as Outcast2 package",
+      "comment": "Publish as Outcast2 pacakge",
       "version": "2.13.7",
-      "date": "Sun Nov 21 21:18:28 2021",
-      "timestamp": 1637529508
+      "date": "Sun Nov 21 23:01:24 2021",
+      "timestamp": 1637535684
     },
     "history": []
   }
