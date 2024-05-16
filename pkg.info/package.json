@@ -23,13 +23,20 @@
   },
   "publish": {
     "current": {
-      "comment": "Add more helper functions",
-      "version": "2.13.7d",
-      "date": "Thu Mar 14 20:51:40 2024",
-      "timestamp": 1710449500,
+      "comment": "Add 'Fakeit' for mocking classes and 'FFF' for mocking c functions",
+      "version": "2.13.7e",
+      "date": "Thu May 16 20:15:54 2024",
+      "timestamp": 1715890554,
       "changes": null
     },
     "history": [
+      {
+        "comment": "Add more helper functions",
+        "version": "2.13.7d",
+        "date": "Thu Mar 14 20:51:40 2024",
+        "timestamp": 1710449500,
+        "changes": null
+      },
       {
         "comment": "add additional helper class(es)",
         "version": "2.13.7c",
